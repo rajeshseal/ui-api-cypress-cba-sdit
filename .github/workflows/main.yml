@@ -38,7 +38,7 @@ jobs:
 
   test-windows-firefox:
     runs-on: windows-latest
-    needs: install-ubuntu-chrome
+    needs: install-windows-firefox
     steps:
       - name: Checkout
         uses: actions/checkout@v2
