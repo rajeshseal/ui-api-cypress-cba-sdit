@@ -1,0 +1,25 @@
+[{   
+  "menu": "Banking",
+  "url": "/banking.html?ei=mv_banking"
+},
+  {
+    "menu": "Home loans",
+    "url": "/home-loans.html?ei=mv_home-loans"
+  },
+  {
+    "menu": "Insurance",
+    "url": "/insurance.html?ei=mv_insurance"
+  },
+  {
+    "menu": "Investing & super",
+    "url": "/investing-and-super.html?ei=mv_investing-super"
+  },
+  {
+    "menu": "Business",
+    "url": "/business.html?ei=mv_business"
+  },
+  {
+    "menu": "Institutional",
+    "url": "/institutional.html?ei=mv_institutional"
+  }
+]
