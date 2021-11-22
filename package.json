@@ -10,8 +10,8 @@
     "pretest": "npm run clean-reports",
     "posttest": "npm run combine-reports && npm run generate-reports",
     "cypress-ui-open": "npx cypress open",
-    "customscript": "npx cypress run --spec 'cypress/integration/_ui_tests_/**/*' --browser chrome",
-    "customscriptheaded": "npx cypress run --spec 'cypress/integration/_ui_tests_/**/*' --headed --browser chrome",
+    "customscript": "npx cypress run --spec 'cypress/integration/**/*' --browser chrome",
+    "customscriptheaded": "npx cypress run --spec 'cypress/integration/**/*' --headed --browser chrome",
     "test": "npm run customscript || npm run posttest",
     "test-headed": "npm run customscriptheaded || npm run posttest"
   },
