@@ -24,7 +24,9 @@ Please refer the reference images in section `Running the tests in CI`
 ### Report
 'mocha awesome reporter' is employed to compile the reports per spec and tests underneath the spec when tests are run through cli.
 The report is created in `html` format and is stored under `/reports/mochareports/report.html`
-#### ![sreport](./reports.png)
+
+#### ![samreport](./reports.png)
+
 ### CLI 
 The tests can be triggered via cypress ui and cli.
 Please refer the `reference` section and `Running the tests in local machine`
